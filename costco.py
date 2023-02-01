@@ -271,7 +271,13 @@ def shopping_list(shoppingList):
     print("")
 
 def add_item(cart):
-    pass
+    x = 1
+    for thingy in all_products:
+        for prod in range(len(thingy)):
+            print(x + ". " + i[])
+            x += 1
+    object = str(input("Please select which object you would like to buy: "))
+    print("You have added " + thingy[])
 
 def perm_options_1(choice):
     if choice == "1":
